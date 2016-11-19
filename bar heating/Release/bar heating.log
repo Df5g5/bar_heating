@@ -1,0 +1,29 @@
+﻿Построение начато 02.10.2014 14:23:21.
+     1>Проект "C:\Users\Df5g5\documents\visual studio 2012\Projects\bar heating\bar heating\bar heating.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt barh.cpp oned.cpp
+         barh.cpp
+         oned.cpp
+     1>oned.cpp(40): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
+     1>oned.cpp(50): warning C4018: <: несоответствие типов со знаком и без знака
+     1>oned.cpp(71): warning C4018: <: несоответствие типов со знаком и без знака
+     1>oned.cpp(108): warning C4018: <: несоответствие типов со знаком и без знака
+     1>oned.cpp(136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357): см. объявление "sprintf"
+     1>oned.cpp(139): warning C4018: <: несоответствие типов со знаком и без знака
+     1>oned.cpp(178): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\conio.h(131): см. объявление "getch"
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\bar heating.res" "bar heating.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Df5g5\documents\visual studio 2012\Projects\bar heating\Release\bar heating.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Df5g5\documents\visual studio 2012\Projects\bar heating\Release\bar heating.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Df5g5\documents\visual studio 2012\Projects\bar heating\Release\bar heating.lib" /MACHINE:X86 /SAFESEH "Release\bar heating.res"
+         Release\barh.obj
+         Release\oned.obj
+         Создание кода
+         Создание кода завершено
+         bar heating.vcxproj -> C:\Users\Df5g5\documents\visual studio 2012\Projects\bar heating\Release\bar heating.exe
+     1>Построение проекта "C:\Users\Df5g5\documents\visual studio 2012\Projects\bar heating\bar heating\bar heating.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.43

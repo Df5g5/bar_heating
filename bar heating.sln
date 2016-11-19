@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bar heating", "bar heating\bar heating.vcxproj", "{7090B94E-30AA-40EB-9ACD-91C3B1761949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7090B94E-30AA-40EB-9ACD-91C3B1761949}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7090B94E-30AA-40EB-9ACD-91C3B1761949}.Debug|Win32.Build.0 = Debug|Win32
+		{7090B94E-30AA-40EB-9ACD-91C3B1761949}.Release|Win32.ActiveCfg = Release|Win32
+		{7090B94E-30AA-40EB-9ACD-91C3B1761949}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
